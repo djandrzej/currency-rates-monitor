@@ -9,7 +9,7 @@ import {
     REMOVE_CURRENCY
 } from '../../src/constants/actionTypes';
 
-describe('Counter reducer', () => {
+describe('currencyRatesByCode reducer', () => {
     it('should return the initial state', () => {
         expect(reducer(undefined, {}))
             .toEqual({});

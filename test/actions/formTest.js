@@ -8,7 +8,7 @@ import {
     REMOVE_CURRENCY
 } from '../../src/constants/actionTypes';
 
-describe('Counter action creators', () => {
+describe('Form action creators', () => {
     describe('selectCurrency', () => {
         it('should create an action to select currency', () => {
             expect(actions.selectCurrency('USD'))

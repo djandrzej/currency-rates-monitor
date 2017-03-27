@@ -5,7 +5,7 @@ import {
     FETCH_AVAILABLE_CURRENCIES_SUCCESS
 } from '../../src/constants/actionTypes';
 
-describe('Counter reducer', () => {
+describe('currenciesByCode reducer', () => {
     it('should return the initial state', () => {
         expect(reducer(undefined, {}))
             .toEqual({});

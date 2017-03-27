@@ -21,7 +21,7 @@ const mockStore = configureMockStore(middlewares);
 const OK_STATUS_CODE = 200;
 const SERVER_ERROR_STATUS_CODE = 500;
 
-describe('Counter action creators', () => {
+describe('Currency rates action creators', () => {
     describe('fetchAvailableCurrencies', () => {
         afterEach(() => {
             nock.cleanAll();
